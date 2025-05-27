@@ -18,7 +18,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  min-height: 100vh;
+  height: 100%;
   display: grid;
   place-items: center;
   padding: 20px;
@@ -31,15 +31,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  position: relative;
 }
 
 .link {
-  position: absolute;
-  top: 0;
-  right: 0;
-
   margin: 40px;
 }
 
