@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 #reader.active button {
@@ -21,6 +23,18 @@ body {
   display: grid;
   place-items: center;
   padding: 20px;
+}
+
+.list-menu a {
+  color: #333;
+  border: 2px solid #cecece;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 2rem;
+  
+  position: absolute;
+  top: 40px;
+  right: 110px;
 }
 
 .header p {
@@ -212,3 +226,5 @@ button.scanning {
     width: 10rem;
     height: 3r
   }}
+
+  
