@@ -38,4 +38,5 @@ async function buscarPosicao() {
 SearchPositionBtn.addEventListener("click", (e) => {
   e.preventDefault();
   buscarPosicao();
+  codigoInput.value = '';
 });

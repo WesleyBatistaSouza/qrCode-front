@@ -3,31 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./codigo-qr.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./codigo-qr.png" type="image/x-icon" />
     <title>Procurar Posição</title>
     <link rel="stylesheet" href="./css/style.search.css" />
   </head>
   <body>
-    <header></header>
     <main class="container">
-      <nav class="menu">
-        <ul class="list-menu">
-          <li>
-            <a href="./index.html">Voltar ao QR Code</a>
-          </li>
-        </ul>
-      </nav>
-      <h1>Procurar Posição pelo Código</h1>
+      <a href="./index.html">Voltar ao QR Code</a>
 
-      <form action="">
-        <label for="codigo">Código:</label>
-        <input
-          class="search-position-input"
+      <form>
+        <h1>Procurar Posição pelo Código</h1>        <div class="form-item">
+          <input class="search-position-input"
           type="text"
           id="codigo"
           name="codigo"
-          required
-        />
+          required />
+          <label for="codigo">Código</label>
+        </div>
         <div>
           <p id="resultado"></p>
         </div>

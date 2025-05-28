@@ -128,6 +128,8 @@ salvarFormBtn.addEventListener("click", () => {
     alert("URL inválida!");
     console.error(error);
   }
+
+  urlInput.value = '';
 });
 
 startScanBtn.addEventListener("click", () => {
