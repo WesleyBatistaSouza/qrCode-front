@@ -5,7 +5,7 @@
 
 ## 📋 Descrição do Projeto
 
-Sistema desenvolvido para gestão de estoque em almoxarifados através de leitura de QR Codes, identificando automaticamente a localização física dos materiais nas prateleiras e integrando com Google Forms para registro automatizado.
+Sistema desenvolvido para gestão de estoque do almoxarifado da empresa Vix Logistica, através de leitura de QR Codes, identificando automaticamente a localização física dos materiais nas prateleiras e integrando com Google Forms para registro automatizado.
 
 ## ✨ Funcionalidades Principais
 
