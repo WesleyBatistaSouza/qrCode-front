@@ -18,7 +18,7 @@ Sistema desenvolvido para gestão de estoque em almoxarifados através de leitur
 ## 🛠️ Tecnologias Utilizadas
 
 - **Frontend**: HTML5
-- **Leitor QR**: Biblioteca react-qr-reader
+- **Leitor QR**: Biblioteca HTML5-Qr-Reader
 - **Estilização**: CSS3
 - **Integração**: Google Forms API
 - **Deploy**: Vercel
